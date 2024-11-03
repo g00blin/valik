@@ -1,0 +1,18 @@
+git --version                                провепяет версию git
+sudo apt install git                         установка git 
+git config --global user.name "name"         установка имени пользователя
+git config --global user.email "email"       установка почты
+git config --global colour.ui auto           цветовые настройки
+git config --list                            просмотр параметпров юзера
+git init                                     инициирует репозитарий в текущей папке
+git add "name file"                          начать отслеживать изменения
+git commit                                   прописать комит к файлу
+git log                                      просмотр истории комитов
+git commit -am 'commit'                      добавить и закомитить в одной команде
+git log --oneline                            просмотр комитов в виде списка
+git reset --hard hash                        откатить версию файла до определенного комита
+git reflog                                   показывает все изменения   
+ssh-keygen -t rsa -b 4096                    генерирование пары ключей для уд.репозитария
+cat .ssh/id_rsa.pub                          открыть и скопировать ключ на github
+git clone + путь к уд.репоз                  клонирует уд.репозитарий в тек. или указанную дир
+
